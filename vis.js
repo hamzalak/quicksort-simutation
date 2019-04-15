@@ -28,14 +28,6 @@ function draw() {
 
 
 async function quickSort(arr, low, high) {
-  //check for empty or null array
-
-  /*if (arr == null || arr.length == 0){
-      return;
-  }*/
-  /*if (low >= high){
-      return;
-  }*/
   //Get the pivot element from the middle of the list
 
   let middle = Math.floor(low + (high - low) / 2);
